@@ -1,6 +1,6 @@
 {
   "name": "pm-event-uti",
-  "version": "0.0.2",
+  "version": "1.0.2",
   "description": "基于 window.postmessage 简单封装，提供2个对外方法（listen/send）方便进行简单调用。",
   "main": "dist/index.js",
   "files": [
