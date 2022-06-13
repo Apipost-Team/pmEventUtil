@@ -20,8 +20,8 @@ class pmEventUtil{
 
     listen(channel, callback){
         window.addEventListener('message', function (e) {
-            if(typeof e.data === 'object' && e.data.hasOwnProperty('channel') && channel === e.data['channel']){
-                callback(e.data, e);
+            if(typeof e.data === 'object' && e.data.hasOwnProperty('data') && e.data.hasOwnProperty('channel') && channel === e.data['channel']){
+                callback(e.data.data, e);
             }
         });
     }
