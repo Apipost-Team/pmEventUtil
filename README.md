@@ -3,15 +3,16 @@
 
 # send 
 
-使用实例：
-```(new pmEventUtil).send('myChannel', data, function(err){
-                    // console.log(err)
-                });```
+示例：
+
+`(new pmEventUtil).send('myChannel', data, function(err){
+    // console.log(err)
+}); `
 
 # send 
 
-使用实例：
-```(new pmEventUtil).listen('myChannel', function(data){
-                console.log(data)
-            });```
+示例：
+`(new pmEventUtil).listen('myChannel', function(data){
+    console.log(data)
+});`
 
