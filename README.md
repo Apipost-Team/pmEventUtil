@@ -3,9 +3,7 @@
 
 # send 
 
-示例：
-
-向频道 myChannel 发送消息 data
+**示例**：向频道 myChannel 发送消息 data
 
 ```
 (new pmEventUtil).send('myChannel', data, function(err){
@@ -15,9 +13,7 @@
 
 # listen 
 
-示例：
-
-监听 myChannel频道
+**示例**：监听 myChannel频道
 
 ```
 (new pmEventUtil).listen('myChannel', function(data){
