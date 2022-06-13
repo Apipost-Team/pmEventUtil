@@ -10,7 +10,7 @@ class pmEventUtil{
         this.targetOrigin = opts.targetOrigin ?? '*'
 
         // 基本信息
-        this.version = '1.0.0';
+        this.version = '1.0.2';
     }
 
     /**
