@@ -5,14 +5,19 @@
 
 示例：
 
-`(new pmEventUtil).send('myChannel', data, function(err){
+```
+(new pmEventUtil).send('myChannel', data, function(err){
     // console.log(err)
-}); `
+}); 
+```
 
-# send 
+# listen 
 
 示例：
-`(new pmEventUtil).listen('myChannel', function(data){
+
+```
+(new pmEventUtil).listen('myChannel', function(data){
     console.log(data)
-});`
+});
+```
 
